@@ -2,9 +2,9 @@
 
 It provide an easy way to integrate UAE Pass services in your application.
 
-## Login
+## Configuration
 
-To login the user using UAE Pass, you can use the following code:
+Contact UAE Pass team to get your client id and token.
 
 ```php
 use Ragab\UaePass;
@@ -17,7 +17,13 @@ $uae = UaePass::fromClient([
     'localization' => 'en',
     'production' => false
 ]);
+```
 
+## Login
+
+To login the user using UAE Pass, you can use the following code:
+
+```php
 // Redirect to UAE Pass login page in order to for the user to login
 $uae->login();
 ```
