@@ -1,0 +1,22 @@
+{
+    "name": "aragab/uaepass",
+    "description": "a package that makes connection with uaepass service much more easier",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ragab\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmed Ragab",
+            "email": "ah234714444@gmail.com"
+        }
+    ],
+    "require": {}
+}
